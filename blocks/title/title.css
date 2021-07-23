@@ -2,12 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 73px 25px 132px;
+  margin: 0 auto;
+  padding-top: 73px;
+  padding-bottom: 130px;
+}
+
+@media (max-width: 1040px) {
+  .title {
+    padding: 0px 25px 60px;
+  }
 }
 
 @media (max-width: 765px) {
   .title {
     flex-direction: column-reverse;
-    padding: 30px 25px 60px;
   }
 }
